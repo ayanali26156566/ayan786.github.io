@@ -1,42 +1,98 @@
-body {
-  font-family: Arial, sans-serif;
+* {
   margin: 0;
   padding: 0;
-  background-color: #fffef2;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: antiquewhite;
+  color: #10100b;
+  padding: 20px;
+  font-size: large;
 }
 
 header {
-  background-color: #ffd700;
-  color: #001f3f;
-  padding: 20px;
   text-align: center;
+  padding: 40px 0;
+  background: #222;
 }
 
-nav a {
-  margin: 0 15px;
-  color: #001f3f;
-  text-decoration: none;
-  font-weight: bold;
+header h1 {
+  font-size: 3rem;
+  color: #ffd700;
+}
+.gmail{
+  float: right;
+  font-size: small;
+  margin-right: 10px;
 }
 
-.products {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
+header p {
+  font-size: 1.2rem;
+  color: #ffd700;
 }
 
-.product {
-  border: 1px solid #ccc;
-  margin: 0 10px;
+section {
+  margin: 40px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #563423;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #333333;
+  margin: 5px 0;
   padding: 10px;
-  text-align: center;
-  background-color: white;
-}
-
-.bottom {
-    margin-top: 510px;
-  background-color: #001f3f;
+  border-radius: 5px;
   color: white;
-  text-align: center;
+}
+
+.project-card {
+  background: #222;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 4px solid #ffd700;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
   padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background: #00bcd4;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #0097a7;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #777;
 }

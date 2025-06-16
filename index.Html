@@ -3,35 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Popsy Mall</title>
+  <title> Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Welcome to Popsy Mall</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Shop</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
+    <h1>M.d Ayan Ali</h1>
+    <p>Frontend Developer | Designer | Learner for back-end</p>
+    <p class="gmail">aspiringdeveloper261@gmail.com</p>
   </header>
-  <main>
-    <section class="products">
-      <div class="product">
-        <img src="https://via.placeholder.com/150" alt="Product 1" />
-        <h2>Stylish Shirt</h2>
-        <p>$19.99</p>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/150" alt="Product 2" />
-        <h2>Trendy Shoes</h2>
-        <p>$29.99</p>
-      </div>
-    </section>
-  </main>
-  <footer class="bottom">
-    <p>&copy; 2025 Popsy Mall. All rights reserved.</p>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p><strong>Hi guys!</strong> I am Ayan, a passionate developer learning web development.
+       I love creating websites that look good and work smoothly.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Responsive Design</li>
+      <li>and learning back-end</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>My E-commerce Clone</h3>
+      <p>A basic frontend clone of an e-commerce store using HTML & CSS.</p>
+    </div>
+    <div class="project-card">
+      <h3>My portfolio</h3>
+      <p>you can watch this without going away.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <ul>
+       <a href="https://www.instagram.com/aspiringdeveloper6/?hl=en#"><li>Insta</li></a>
+    </ul>
+    <h2>Message me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Lucifer. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
