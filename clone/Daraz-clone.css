@@ -1,0 +1,117 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav {
+        width: 100%;
+        position: fixed;
+        top: 0;
+    }
+
+    .upper-nav {
+        background-color: #F85606;
+        height: 25px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .upper-part {
+        color: white;
+        text-decoration: none;
+        margin: 4px;
+        margin-right: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+    }
+
+    .lower-nav {
+        height: 80px;
+        width: 100%;
+        background-color: #F85606;
+        border-bottom: 1px solid #dcdcdc;
+        display: flex;
+        align-items: center;
+        position: fixed;
+    }
+
+    .logo {
+        height: 35px;
+        width: 120px;
+        margin-left: 40px;
+    }
+
+    /* SEARCH AREA */
+    .search-wrapper {
+        display: flex;
+        align-items: center;
+        margin-left: 60px;
+    }
+
+    .search-box {
+        width: 570px;
+        height: 40px;
+        border: none;
+        padding-left: 10px;
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+
+    .search-box:focus {
+        outline: none;
+    }
+
+    input::placeholder {
+        font-size: 12px;
+        color: grey;
+        padding: 8px;
+    }
+
+    .search-icon {
+        height: 40px;
+        width: 45px;
+        background-color: #ffe1d2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin-bottom: 18px;
+    }
+
+    .search-icon i {
+        color: #F85606;
+        font-size: 18px;
+    }
+
+    /* CART ICON */
+    .cart {
+        margin-left: 40px;
+        font-size: 26px;
+        color: white;
+        cursor: pointer;
+        margin-bottom: 2px;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px;
+        
+    }
+    .left-section {
+        background-image: url(./images/image.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 940px;
+        height: 344px;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    .right-section {
+        background-image: url(./images/right-image.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 344px;
+        margin-top: 100px;
+        margin-right: 50px;
+    }
